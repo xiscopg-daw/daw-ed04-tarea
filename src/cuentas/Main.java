@@ -1,3 +1,7 @@
+/*
+  Clase principal y añado comentarios para probar que se sincroniza con GitHub
+*/
+
 package cuentas;
 
 public class Main {
