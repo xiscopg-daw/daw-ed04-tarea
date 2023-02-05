@@ -26,7 +26,11 @@ public class CCuenta {
     private String cuenta;
     private double saldo;
     private double tipoInterés;
-
+    /**
+     * Constructor por defecto de la clase CCuenta, no usar por que no se 
+     * implementa. Mejor usar {@link #CCuenta(java.lang.String, java.lang.String, double, double)} ·
+     *  
+     */
     public CCuenta()
     {
     }

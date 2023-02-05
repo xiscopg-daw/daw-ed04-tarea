@@ -4,10 +4,16 @@
  * en las cuentas llamada (CCuenta).
  */
 package cuentas;
-
+/**
+ * Clase Main, principal del proyecto incluido en el paquete cuentas.
+ * 
+ * @author Xisco Pérez
+ * @version 1.1
+ * @since 1.0
+ */
 public class Main {
     /** 
-     * Constructor de la clase principal del proyecto
+     * Constructor por defecto de la clase principal del proyecto
      * @param args Array de parámetros string como parámetro
      */
     public static void main(String[] args) {
