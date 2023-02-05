@@ -1,3 +1,7 @@
+/**
+ * Comentario JavaDoc para indicar que CCuenta es una clase para realizar 
+ * pruebas de la Tarea ED04 y que también se usó para de ED03.
+ */
 package cuentas;
 
 /**
@@ -16,7 +20,7 @@ package cuentas;
 public class CCuenta {
 
    /** 
-    * Variables pricadas de la clase
+    * Variables pricadas de la clase que serán utilizados como atributos mediante su setter y getter
     */
     private String nombre;
     private String cuenta;
@@ -74,7 +78,7 @@ public class CCuenta {
     }
 
     /**
-     * Método para obtener el nombre del propietario de la cuenta
+     * Método getter para obtener el nombre del propietario de la cuenta
      * @return El nombre del propietario de la cuenta
      */
     public String getNombre() {
@@ -82,7 +86,7 @@ public class CCuenta {
     }
 
     /**
-     * Método para establecer el nombre del propietario de la cuenta
+     * Método setter para establecer el nombre del propietario de la cuenta
      * @param nombre Nombre del propietario de la cuenta
      */
     public void setNombre(String nombre) {
@@ -90,7 +94,7 @@ public class CCuenta {
     }
 
     /**
-     * Método para obtener el número de la cuenta
+     * Método getter para obtener el número de la cuenta
      * @return El número de la cuenta
      */
     public String getCuenta() {
@@ -98,7 +102,7 @@ public class CCuenta {
     }
 
     /**
-     * Método para establecer el número de la cuenta
+     * Método setter para establecer el número de la cuenta
      * @param cuenta Número de cuenta a establecer
      */
     public void setCuenta(String cuenta) {
@@ -106,7 +110,7 @@ public class CCuenta {
     }
 
     /**
-     * Método para obtener el saldo actual
+     * Método getter para obtener el saldo actual
      * @return El saldoo actual de la cuenta
      */
     public double getSaldo() {
@@ -114,7 +118,7 @@ public class CCuenta {
     }
 
     /**
-     * Método para establece el saldo de la cuenta
+     * Método setter para establece el saldo de la cuenta
      * @param saldo Importe para establecer como saldo.
      */
     public void setSaldo(double saldo) {
@@ -122,7 +126,7 @@ public class CCuenta {
     }
 
     /**
-     * Método para obtener el tipo de interés.
+     * Método getter para obtener el tipo de interés.
      * @return El tipo de interés actual
      */
     public double getTipoInterés() {
@@ -130,7 +134,7 @@ public class CCuenta {
     }
 
     /**
-     * Método para establece el tipo de interés de la cuenta
+     * Método setter para establece el tipo de interés de la cuenta
      * @param tipoInterés El tipo de interés para establecer.
      */
     public void setTipoInterés(double tipoInterés) {
